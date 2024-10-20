@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contactanos {
+    background-image: url('/viajeswilson2/vista/img/contactanos.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inicio h1 {
+    color: #ffd700;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px black;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35%;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact-item img {
+    width: 40px;
+    height: 40px;
+}
+.contact-item p {
+    font-size: 1.2em;
+    color: #333;
+}
+.map-container {
+    width: 60%;
+}
